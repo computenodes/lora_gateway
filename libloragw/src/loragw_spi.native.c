@@ -29,6 +29,7 @@ Maintainer: Sylvain Miermont
 #include <string.h>		/* memset */
 
 #include <sys/ioctl.h>
+#include <asm/ioctl.h>		/*added to stop compilation errors on alpine linux */
 #include <linux/spi/spidev.h>
 
 #include "loragw_spi.h"
